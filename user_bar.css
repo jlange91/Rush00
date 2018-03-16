@@ -1,0 +1,41 @@
+/**************************************************************************
+
+CSS USER BAR
+
+**************************************************************************/
+
+#leftbox {
+    float: left;
+    top: 10px;
+    height: 80%;
+    width: 20%;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #FFFFFF;
+}
+
+
+#user_img{
+    margin-top: 10%;
+    width: 90%;
+}
+
+#leftbox .img_last_art{
+    width: 80%;
+}
+
+#info_user{
+    text-align: center;
+}
+
+#new_articles{
+    padding: 10% 0 0 0;
+    border-top: 1px solid #e1e1e1;
+    background-color: #fcfcfc;
+}
+
+@media only screen and (max-width: 700px){
+    #leftbox {
+        width: 140px;
+    }
+}
